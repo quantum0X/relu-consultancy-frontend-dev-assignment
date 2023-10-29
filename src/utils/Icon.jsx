@@ -7,6 +7,11 @@ export {
   BiLogOut as Logout,
 } from "react-icons/bi";
 export { TbMail as Message } from "react-icons/tb";
-export { AiOutlineHeart as Shop } from "react-icons/ai";
+export {
+  AiOutlineHeart as Shop,
+  AiOutlineMessage as Comment,
+} from "react-icons/ai";
 export { MdNotificationsNone as Notification } from "react-icons/md";
 export { LuSettings2 as Filter } from "react-icons/lu";
+export { BsThreeDotsVertical as VerticalMenu } from "react-icons/bs";
+export { PiShareFatBold as Share } from "react-icons/pi";
