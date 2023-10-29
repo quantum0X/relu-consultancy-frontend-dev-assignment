@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Item from "./Item";
+import { useAuth } from "../../context/AuthContext";
 import {
   Home,
   Notification,
@@ -11,6 +12,7 @@ import {
   Setting,
   Logout,
 } from "../../utils/Icon";
+import { useNavigate } from "react-router-dom";
 
 const data = [
   {
@@ -55,7 +57,17 @@ const data = [
   },
 ];
 const Sidebar = () => {
+  const { logOut, currentUser } = useAuth();
+  const navigate = useNavigate();
   const [activeTab, setActiveTab] = useState(0); // change this for different menu
+
+  useEffect(() => {
+    if (!currentUser) return navigate("/login");
+  });
+
+  const logoutHandler = () => {
+    logOut();
+  };
   return (
     <div className="flex flex-col gap-8 pb-4 ">
       {/* logo */}
@@ -69,7 +81,10 @@ const Sidebar = () => {
           ))}
         </div>
 
-        <div className="px-8 flex items-center gap-2 text-blue-400 text-xl cursor-pointer">
+        <div
+          className="px-8 flex items-center gap-2 text-blue-400 text-xl cursor-pointer"
+          onClick={logoutHandler}
+        >
           <Logout /> logout
         </div>
       </div>

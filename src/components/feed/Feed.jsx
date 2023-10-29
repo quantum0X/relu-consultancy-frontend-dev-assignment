@@ -36,7 +36,7 @@ const Feed = () => {
         <span className="flex items-center gap-2">
           <Search />
           <input
-            type="search"
+            type="text"
             placeholder="Search here..."
             className="outline-none"
           />

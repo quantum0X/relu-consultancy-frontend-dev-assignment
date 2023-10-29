@@ -31,7 +31,7 @@ const LoginPage = () => {
       {" "}
       {!currentUser ? (
         <div className="w-screen h-screen flex flex-col justify-center items-center">
-          <form className="flex flex-col gap-4 max-w-2xl bg-orange-100">
+          <form className="flex flex-col gap-4 max-w-2xl">
             <input
               type="text"
               value={mail}
