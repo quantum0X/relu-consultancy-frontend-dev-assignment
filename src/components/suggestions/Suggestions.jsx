@@ -4,23 +4,44 @@ import {
   Artist1,
   Artist2,
   Artist3,
+  Artist4,
+  Artist5,
   UserDP1,
   UserDP2,
   UserDP3,
+  UserDP4,
 } from "../../utils/ImageImport";
 
 const data = [
   {
-    profile: UserDP1,
+    profile: UserDP2,
     name: "Thomas Edward",
     username: "thewildwithyou",
     photo: Artist1,
   },
   {
-    profile: UserDP2,
+    profile: UserDP3,
     name: "Thomas Edward",
     username: "thewildwithyou",
     photo: Artist2,
+  },
+  {
+    profile: UserDP4,
+    name: "Thomas Edward",
+    username: "thewildwithyou",
+    photo: Artist3,
+  },
+  {
+    profile: UserDP2,
+    name: "Thomas Edward",
+    username: "thewildwithyou",
+    photo: Artist4,
+  },
+  {
+    profile: UserDP3,
+    name: "Thomas Edward",
+    username: "thewildwithyou",
+    photo: Artist5,
   },
   {
     profile: UserDP3,
@@ -29,22 +50,16 @@ const data = [
     photo: Artist3,
   },
   {
-    profile: UserDP1,
+    profile: UserDP3,
     name: "Thomas Edward",
     username: "thewildwithyou",
     photo: Artist2,
   },
   {
-    profile: UserDP1,
+    profile: UserDP4,
     name: "Thomas Edward",
     username: "thewildwithyou",
-    photo: Artist2,
-  },
-  {
-    profile: UserDP1,
-    name: "Thomas Edward",
-    username: "thewildwithyou",
-    photo: Artist2,
+    photo: Artist5,
   },
 ];
 
@@ -68,7 +83,7 @@ const Suggestions = () => {
         </div>
       </div>
 
-      <div className="flex justify-around text-xs">
+      <div className="flex justify-around text-xs -mt-4">
         <div>Privacy</div>
         <div>Terms of Service</div>
         <div>Cookie Notice</div>

@@ -38,8 +38,11 @@ const Post = ({
         )}
       </div>
       {/* image */}
-      <div>
+      <div className="relative">
         <img src={postImage} alt="post" />
+        <div className="absolute top-3 right-3 text-white text-2xl font-extrabold ">
+          <Shop />
+        </div>
       </div>
       {/* hr line */}
       <hr className="border-1 border-gray-200 my-4" />
