@@ -47,15 +47,11 @@ const Feed = () => {
         </span>
       </div>
       {/* posts */}
-      <div
-        id="post"
-        className="h-fill overflow-y-scroll flex flex-col gap-5 pb-5"
-      >
+      <div id="post" className=" overflow-y-scroll  flex flex-col gap-5 pb-5">
         {/* posts */}
         {data.map((ele, i) => (
           <Post key={i} {...ele} />
         ))}
-
         {/* last section */}
         <LastSection />
       </div>

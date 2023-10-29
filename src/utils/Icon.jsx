@@ -10,6 +10,7 @@ export { TbMail as Message } from "react-icons/tb";
 export {
   AiOutlineHeart as Shop,
   AiOutlineMessage as Comment,
+  AiFillStar as Rating,
 } from "react-icons/ai";
 export { MdNotificationsNone as Notification } from "react-icons/md";
 export { LuSettings2 as Filter } from "react-icons/lu";

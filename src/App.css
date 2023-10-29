@@ -33,3 +33,17 @@ body {
   border-radius: 10px;
   border: 0px none #a43d3d;
 }
+
+/* last section scrollbar */
+#last-section::-webkit-scrollbar {
+  display: none;
+}
+#last-section::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#last-section::-webkit-scrollbar-thumb {
+  background-color: #c7c7c7;
+  border-radius: 10px;
+  border: 0px none #a43d3d;
+}

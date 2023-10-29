@@ -74,7 +74,7 @@ const Sidebar = () => {
         </div>
       </div>
       <div className="flex justify-between p-1">
-        <span className="text-xs text-midBlack">2022</span>
+        <span className="text-xs text-midBlack">2023</span>
         <span className="text-xs text-midBlack">Developed by Vishal Singh</span>
       </div>
     </div>
