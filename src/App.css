@@ -4,6 +4,7 @@ body {
   background: rgb(241, 241, 241);
 }
 
+/* post scrollbar */
 #post::-webkit-scrollbar {
   /* width: 6px; */
   display: none;
@@ -15,6 +16,20 @@ body {
 
 #post::-webkit-scrollbar-thumb {
   background-color: #8f54a0;
+  border-radius: 10px;
+  border: 0px none #a43d3d;
+}
+
+/* artist scrollbar */
+#artist::-webkit-scrollbar {
+  width: 6px;
+}
+#artist::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#artist::-webkit-scrollbar-thumb {
+  background-color: #c7c7c7;
   border-radius: 10px;
   border: 0px none #a43d3d;
 }
