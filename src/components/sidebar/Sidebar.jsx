@@ -59,7 +59,7 @@ const Sidebar = () => {
   return (
     <div className="flex flex-col gap-8 pb-4 ">
       {/* logo */}
-      <div className="px-6 py-3 flex text-center items-center bg-white text-2xl rounded-md">
+      <div className="px-6 py-4 flex text-center items-center bg-white text-2xl rounded-md">
         LOGO
       </div>
       <div className="bg-white flex flex-col justify-between h-full py-4 rounded-xl text-midBlack">
